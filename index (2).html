@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Linki – Szczurro Studio</title>
+<meta name="description" content="Wszystkie linki Szczurro Studio w jednym miejscu.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🐀</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f1f0fb; --surface:#ffffff; --ink:#1b1840; --muted:#55527a; --line:#d9d6f2; --scratch:#ff8a1f;
+  --head:"Bricolage Grotesque","Trebuchet MS",sans-serif;
+  --body:"Figtree","Segoe UI",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#14122e;--surface:#1e1b45;--ink:#f1f0fb;--muted:#b3b0d6;--line:#34306a}
+}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:var(--bg);color:var(--ink);font:400 1.05rem/1.6 var(--body);display:flex;justify-content:center;padding:48px 20px}
+main{width:100%;max-width:460px;text-align:center}
+.avatar{font-size:4rem;line-height:1}
+h1{font:800 2rem/1.1 var(--head);margin:10px 0 6px;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:0 0 30px}
+ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.link-btn{display:block;padding:15px 20px;background:var(--surface);color:var(--ink);border:2px solid var(--ink);border-radius:12px;font-weight:600;text-decoration:none;box-shadow:4px 4px 0 var(--ink);transition:transform .12s,box-shadow .12s}
+.link-btn:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}
+.link-btn:focus-visible{outline:3px solid var(--scratch);outline-offset:3px}
+.back{display:inline-block;margin-top:34px;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){.link-btn{transition:none}}
+</style>
+</head>
+<body>
+<main>
+  <div class="avatar" aria-hidden="true">🐀</div>
+  <h1>Szczurro Studio</h1>
+  <p class="sub">Gry i strony internetowe. Wszystkie nasze linki w jednym miejscu.</p>
+
+  <ul>
+    <!-- JAK DODAĆ LINK: skopiuj jedną linijkę <li>...</li> poniżej, wklej pod nią
+         i zmień adres w href oraz napis między > i </a>. -->
+    <li><a class="link-btn" href="https://elszczurro.github.io/">Strona studia</a></li>
+    <li><a class="link-btn" href="https://discord.com/channels/1563855345015857173/1563855345842003990" target="_blank" rel="noopener">Discord</a></li>
+    <li><a class="link-btn" href="https://el-szczurro.itch.io/" target="_blank" rel="noopener">itch.io</a></li>
+    <li><a class="link-btn" href="https://scratch.mit.edu/users/ktosnapewno183/" target="_blank" rel="noopener">Scratch</a></li>
+    <li><a class="link-btn" href="https://www.roblox.com/pl/users/8640790801/profile" target="_blank" rel="noopener">Roblox</a></li>
+    <li><a class="link-btn" href="https://github.com/elSzczurro" target="_blank" rel="noopener">GitHub</a></li>
+  </ul>
+
+  <a class="back" href="https://elszczurro.github.io/">← Wróć na stronę główną</a>
+</main>
+</body>
+</html>
